@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Change to column for smaller screens */
+    align-items: center; /* Center items vertically */
+    min-height: 80vh;
+  }
+  
+  .second {
+    margin-top: 20px; /* Add some space between the sections */
+    text-align: center; /* Center text within the section */
+  }
+  
+  /* Media query for screens smaller than 600px */
+  @media screen and (max-width: 600px) {
+    .main {
+      padding: 10px; /* Adjust padding for smaller screens */
+    }
+  
+    .second {
+      margin-top: 10px; /* Reduce margin for smaller screens */
+      margin-left: 0; /* Remove left margin */
+    }
+  }

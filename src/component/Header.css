@@ -1,0 +1,68 @@
+.navbar {
+  position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000000;
+    box-shadow: 0 2px 4px  #089d0d; /* Change color on hover */
+    ;
+  }
+  
+  .logo-container {
+    flex: 1; /* Takes up remaining space */
+  }
+  
+  .logo {
+    border-radius: 20px;
+    height: 60px;
+  }
+  
+  .links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center the links horizontally */
+    align-items: center; /* Center the links vertically */
+  }
+  
+  .links ul li {
+    margin-right: 20px;
+  }
+  
+  .links ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .links ul li a {
+    text-decoration: none;
+    color: #fff6f6;
+    font-size: 18px; /* Adjust font size */
+    font-weight: bold; /* Make font bold */
+    transition: color 0.3s; /* Add transition effect */
+  }
+  
+  .links ul li a:hover {
+    color: #089d0d; /* Change color on hover */
+  }
+  
+  .btn-join {
+    background-color: #089d0d;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .btn-join:hover {
+    background-color:    #f7f7f7; /* Change color on hover */
+    color:black
+  }
+  
+  .join-button {
+    margin-left: 10px;
+  }
+  
